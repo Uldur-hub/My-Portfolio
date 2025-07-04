@@ -10,7 +10,7 @@ repository: jsanz/gh-pages-minima-starter
 # Minima social links
 github_username: Uldur-hub
 linkedin_username: Hugo Esco
-rss: rss
+#rss: rss
 
 # Minima: show excerpts in the frontpage
 #show_excerpts: true
