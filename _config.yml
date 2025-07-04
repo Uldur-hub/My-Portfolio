@@ -1,6 +1,6 @@
-title: My blog
-description: My very nice blog
-author: "Jorge Sanz"
+title: My Portfolio
+description: Welcome!
+author: "Hugo E."
 
 theme: minima
 
@@ -8,8 +8,8 @@ base_url: /gh-pages-minima-starter
 repository: jsanz/gh-pages-minima-starter
 
 # Minima social links
-github_username: jsanz
-linkedin_username: jsanz
+github_username: Uldur-hub
+linkedin_username: [Hugo Esco](www.linkedin.com/in/hugo-escobedo-enríquez-270811260)
 rss: rss
 
 # Minima: show excerpts in the frontpage
