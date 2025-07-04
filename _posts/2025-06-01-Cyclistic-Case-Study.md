@@ -18,16 +18,16 @@ layout: post
 <br> 
 
 # Table of Contents
-- [Introduction](#Introduction)
-- [Scenario](#Scenario)
-- [Deliverables](#Deliverables)
+- [Introduction](#introduction)
+- [Scenario](#scenario)
+- [Deliverables](#deliverables)
 <br>
 
-1. **[Ask Phase (Business Task Statement)](#Ask-Phase)**
-- [Problem to Solve](#Problem-to-Solve)
-- [Question to answer](#Question-to-answer)
-- [Business Task Statement](#Business-Task-Statement)
-- [Key Stakeholders](#Key-Stakeholders)
+1. **[Ask Phase (Business Task Statement)](#ask-phase)**
+- [Problem to Solve](#problem-to-solve)
+- [Question to answer](#question-to-answer)
+- [Business Task Statement](#business-task-statement)
+- [Key Stakeholders](#key-stakeholders)
 
 # Introduction
 
