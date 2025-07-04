@@ -5,7 +5,7 @@ layout: post
 ---
 
 # Cyclistic Bike-Share Case Study
-<img alt="Cyclistic Banner" src="assets/cylcystic-banner.png" width="480" align="left">
+<img alt="Cyclistic Banner" src="assets/imgs/cylcystic-banner.png" width="480" align="left">
 
 #### Date: June 2025
 #### Author: Hugo E.
