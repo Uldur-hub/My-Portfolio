@@ -1,10 +1,9 @@
 ---
-title: " "
+title: "Cyclistic Data Analysis Case Study"
 date: 2025-06-01
 layout: post
 ---
 
-# Cyclistic Bike-Share Case Study
 <img alt="Cyclistic Banner" src="assets/cylcystic-banner.png" width="480px" align="left">
 
 #### Date: June 2025
