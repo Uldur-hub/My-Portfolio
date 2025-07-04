@@ -7,6 +7,8 @@ theme: minima
 base_url: /gh-pages-minima-starter
 repository: jsanz/gh-pages-minima-starter
 
+markdown: kramdown
+
 # Minima social links
 github_username: Uldur-hub
 linkedin_username: Uldur
