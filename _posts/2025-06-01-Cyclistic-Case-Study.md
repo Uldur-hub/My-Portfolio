@@ -1,5 +1,5 @@
 ---
-title: "Cyclistic Data Analysis Case Study"
+title: " "
 date: 2025-06-01
 layout: post
 ---
