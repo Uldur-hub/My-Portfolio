@@ -2,9 +2,9 @@
 # ------------------
 #
 title: My Portafolio
-author:
-  name: Hugo E.
-  email: www.linkedin.com/in/uldur
+author: Hugo E.
+  #name: Hugo E.
+  #email: www.linkedin.com/in/uldur
 #
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
