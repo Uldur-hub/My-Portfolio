@@ -4,7 +4,7 @@ date: 2025-06-01
 layout: post
 ---
 
-<img alt="Cyclistic Banner" src="assets/cyclistic-logo.png" width="480px" align="left">
+<img alt="Cyclistic Banner" src="/assets/cyclistic-logo.png" width="480px" align="left">
 
 #### Date: June 2025
 #### Author: Hugo E.
