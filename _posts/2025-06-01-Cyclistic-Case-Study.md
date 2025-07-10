@@ -1,19 +1,14 @@
 ---
-title: "Cyclistic Data Analysis Case Study"
-date: 2025-06-01
 layout: post
+title: "Cyclistic Data Analysis Case Study"
+categories: portfolio
+author:
+- Hugo E.
+modified_date: 2025-07-09
 ---
 
-<img alt="Cyclistic Banner" src="/assets/cyclistic-logo.png" width="480px" align="left">
+<img alt="Cyclistic Banner" src="/assets/cyclistic-logo.png" width="480px" align="center">
 
-#### Date: June 2025
-#### Author: Hugo E.
-
-<br>
-<br>
-<br> 
-<br> 
-<br> 
 <br> 
 
 # Table of Contents
