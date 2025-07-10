@@ -32,6 +32,10 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
 #
+# Minima social links
+github_username: Uldur-hub
+linkedin_username: Uldur
+#rss: rss
 # Uncomment the following setting if you wish to disable deprecation warnings
 #   from newer versions of sass converter. Adapt as required.
 # sass:
@@ -76,13 +80,13 @@ minima:
 #       * title    Tooltip rendered on hovering over icon.
 #       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
 #       * url      Full URL of social profile.
-  social_links:
-    - title: Hugo E. GitHub
-      icon: github
-      url: "https://github.com/Uldur-hub"
-    - title: Hugo E. LinkedIn
-      icon: linkedin
-      url: "www.linkedin.com/in/uldur"
+  #social_links:
+   # - title: Hugo E. GitHub
+    #  icon: github
+     # url: "https://github.com/Uldur-hub"
+   # - title: Hugo E. LinkedIn
+    #  icon: linkedin
+     # url: "www.linkedin.com/in/uldur"
 #
 #   Hide syndication feed subscription link.
 #     RSS / Atom feed link is always rendered as the last item of social-links
