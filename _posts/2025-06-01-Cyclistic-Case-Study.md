@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "Cyclistic Data Analysis Case Study"
-categories: portfolio
 author:
-- Hugo E.
-modified_date: 2025-07-09
+- Hugo Escobedo
 ---
 
 <img alt="Cyclistic Banner" src="/assets/cyclistic-logo.png" width="480px" align="center">
