@@ -5,7 +5,7 @@ author:
 - Hugo Escobedo
 ---
 
-<img alt="Cyclistic Banner" src="/assets/cyclistic-logo.png" width="480px" align="center">
+![Banner](/assets/cyclistic-logo.png)
 
 <br> 
 
