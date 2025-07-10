@@ -5,6 +5,8 @@ author:
 - Hugo Escobedo
 ---
 
+Welcome to my Google Data Analytics Case Study.
+
 ![Bannner](/assets/cyclistic-logo.png)
 
 <br> 
