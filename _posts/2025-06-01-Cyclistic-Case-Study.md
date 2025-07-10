@@ -10,6 +10,7 @@ My name is Hugo and in this project, I will take on the role of a Junior Data An
 
 The analysis will be conducted using SQL, and Tableau, and will follow Google’s six-step data analysis process: ***Ask, Prepare, Process, Analyze, Share, and Act.***
 
+![Bannner](/assets/cyclistic-logo.png)
 
 <br> 
 
