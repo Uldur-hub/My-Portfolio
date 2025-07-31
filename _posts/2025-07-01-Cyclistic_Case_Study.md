@@ -5,7 +5,7 @@ author:
 - Hugo Escobedo
 ---
 
-![Bannner](https://github.com/Uldur-hub/My-Portfolio/blob/main/assets/cyclistic.jpg)
+![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/cyclistic.jpg)
 
 # **Introduction**
 
