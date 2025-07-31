@@ -139,7 +139,7 @@ Once the data has been properly downloaded and stored, I will proceed to extract
 3. Established a dataset within the project to generate individual data tables corresponding to each of the uncleaned/original `.CSV` files.
 
 ### _BigQuery SQL Data Cleaning Process_ 
-[(SQL Cleaning Code)](https://docs.google.com/document/u/0/d/1AcUD-SFUxO7wKQHlsEYvP5qFd2e9WqFpkw3Te5Cca4Q/edit)
+[(SQL Cleaning Code)](https://github.com/Uldur-hub/My-Portfolio/blob/main/Cyclistic_Case_Study_Code/bigquery_SQL_cleaning_process.md)
 
 The initial step involved merging all individual data tables into a single consolidated table to facilitate efficient data processing. The subsequent cleaning steps included:
 
