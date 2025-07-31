@@ -7,18 +7,18 @@ author:
 
 ![Bannner](/assets/cyclistic.jpg)
 
-# Introduction
+# **Introduction**
 
 ***Welcome to my Google Data Analytics Case Study.***  
 My name is Hugo and in this project, I will take on the role of a Junior Data Analyst on the marketing analytics team at a fictional bike-share company based in Chicago. The objective of this case study is to analyze historical trip data to identify behavioral differences between casual riders and annual members. These insights will inform the development of a targeted marketing strategy aimed at converting casual riders into annual members, thereby increasing the company's overall revenue.
 
 The analysis will be conducted using SQL, and Tableau, and will follow Google’s six-step data analysis process: ***Ask, Prepare, Process, Analyze, Share, and Act.***
 
-# Scenario
+# **Scenario**
 
 You are a junior data analyst working on the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
-# Deliverables
+# **Deliverables**
 
 1. A clear statement of the business task.
 2. A description of all data sources used.
@@ -66,32 +66,32 @@ You are a junior data analyst working on the marketing analyst team at Cyclistic
 - [Recommendations](#recommendations)
 <br>
 
-# Ask Phase
+# **Ask Phase**
 
 In the first phase of the analysis my aim is to fully understand the stakeholders expectations, define the problem to be solved and decide which questions to answer in order to solve the problem.
 
-### **Problem to Solve**
+### _Problem to Solve_
 
 - Convert casual riders into annual riders
 
-### **Question to answer**
+### _Question to answer_
 
 - How do annual members and casual riders use Cyclistic bikes differently?
 
-### **Business Task Statement**
+### _Business Task Statement_
 
 Identify key usage patterns and behavioral differences between casual riders and annual members of Cyclistic bike-share services, in order to develop targeted marketing strategies that effectively convert more casual riders into annual members, thereby increasing overall revenue and customer retention.
 
-### **Key Stakeholders**
+### _Key Stakeholders_
 
 - **Cyclistic Executive Team**: Responsible for approving the recommended marketing program.  
 - **Lily Moreno**: Director of Marketing, responsible for the development of campaigns and initiatives to promote the bike-share program.
 
 **[Back to Top](#table-of-contents)**
 
-# Prepare Phase
+# **Prepare Phase**
 
-### **Key Focus Areas in the Data Preparation Phase**
+### _Key Focus Areas in the Data Preparation Phase_
 
 * **Identify the Data**: Determine what data is required to support the analysis.  
 * **Locate the Data**: Identify where the data is stored and how it can be accessed.  
@@ -101,17 +101,17 @@ Identify key usage patterns and behavioral differences between casual riders and
 * **Ensure Data Integrity**: Verify the accuracy, consistency, and reliability of the data.  
 * **Identify Data Issues**: Detect any errors, anomalies, or quality concerns that may affect the analysis.
 
-### **Data Source**
+### _Data Source_
 
 Cyclistic’s first-party 2024 historical trip data is stored [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable me to answer the business questions. The data has been made available by Motivate International Inc. under [this license](https://divvybikes.com/data-license-agreement).
 
-### **Data Overview and Quality Summary** 
+### _Data Overview and Quality Summary_
 
 The analysis is based on Cyclistic’s 2024 historical trip data, provided in 12 structured `.CSV` files organized by rows and columns. Given the record limitations inherent to spreadsheet software, it was not feasible to efficiently execute the processing and analysis phases within those platforms. As a result, the entire workflow was conducted using BigQuery SQL for data processing and Tableau for data visualization.
 
 Although Cyclistic is a fictional company, the data—made available by Motivate International Inc. under an open license—is appropriate for the scope of this case study and supports the business objectives. The data does not present any major or critical issues. Minor issues such as NULL values have been identified and will be addressed during the data cleaning process to ensure integrity and accuracy in analysis.
 
-### **ROCCC Data Compliance Assessment**
+### _ROCCC Data Compliance Assessment_
 
 * **Reliable**: The dataset originates from Cyclistic’s internal record systems and consists of historical trip data, minimizing bias as it reflects actual user behavior.  
 * **Original**: The data has been directly validated through Cyclistic’s proprietary data collection processes, ensuring authenticity.  
@@ -121,7 +121,7 @@ Although Cyclistic is a fictional company, the data—made available by Motivate
 
 **[Back to Top](#table-of-contents)**
 
-# Process
+# **Process**
 
 In this phase, my primary focus will be on refining the dataset to ensure its quality and reliability. This includes identifying and correcting errors or inaccuracies that could compromise the results. Key tasks will include:
 
@@ -132,13 +132,13 @@ In this phase, my primary focus will be on refining the dataset to ensure its qu
 
 Once the data has been properly downloaded and stored, I will proceed to extract the contents from the compressed files. All 12 `.CSV` files will be saved into a dedicated folder.
 
-### **BigQuery SQL preparation process**
+### _BigQuery SQL preparation process_
 
 1. Initiated a new project in BigQuery SQL.  
 2. Due to the large file sizes, a new bucket named `2024_divvy_tripdata_uncleaned` was created to store all original `.CSV` files.  
 3. Established a dataset within the project to generate individual data tables corresponding to each of the uncleaned/original `.CSV` files.
 
-### **BigQuery SQL Data Cleaning Process** 
+### _BigQuery SQL Data Cleaning Process_ 
 [(SQL Cleaning Code)](https://docs.google.com/document/u/0/d/1AcUD-SFUxO7wKQHlsEYvP5qFd2e9WqFpkw3Te5Cca4Q/edit)
 
 The initial step involved merging all individual data tables into a single consolidated table to facilitate efficient data processing. The subsequent cleaning steps included:
@@ -162,7 +162,7 @@ The initial step involved merging all individual data tables into a single conso
 * **Geolocation Validation:**  
   Checked latitude and longitude values to ensure they fall within valid geographical ranges.
 
-### **Preparing Data for Analysis** 
+### _Preparing Data for Analysis_
 
 Once the data was thoroughly cleaned, I proceeded to enhance the data table with additional calculated fields to facilitate analysis.
 
@@ -174,7 +174,7 @@ Once the data was thoroughly cleaned, I proceeded to enhance the data table with
 
 **[Back to Top](#table-of-contents)**
 
-# Analysis
+# **Analysis**
 
 In the next phase of the analysis, I will examine the data using calculations and descriptive methods to identify trends and relationships. The goal is to generate insights that will support answering our business question “How do annual members and casual riders use Cyclistic bikes differently?” and addressing key objectives. The following steps were followed:
 
@@ -257,7 +257,7 @@ In the next phase of the analysis, I will examine the data using calculations an
 
 **[Back to Top](#table-of-contents)**
 
-# Share
+# **Share**
 
 [Tableau Dashboard](https://public.tableau.com/views/CyclisticUserAnalysis_17496867111250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
@@ -267,13 +267,13 @@ As a reminder, I will quote the business task statement once more here:
 
 *“Identify key usage patterns and behavioral differences between casual riders and annual members of Cyclistic bike-share services, in order to develop targeted marketing strategies that effectively convert more casual riders into annual members, thereby increasing overall revenue and customer retention.”*
 
-### **Key Insights**
+### _Key Insights_
 
 **User Segmentation**
 * Members represent the majority: 64.05% of users are annual members, while 35.95% are casual.  
 * Classic bikes dominate usage (65.57%) over electric bikes (34.43%), with no split shown by user type.
 
-### **Behavioral Differences**
+### _Behavioral Differences_
 
 **Monthly Trends:**
 * Casual riders peak heavily in summer months (May–September), particularly July and August, suggesting they are seasonal/leisure-focused  
@@ -296,7 +296,7 @@ As a reminder, I will quote the business task statement once more here:
 * Most popular stations include: Streeter Dr & Grand Ave, DuSable Lake Shore Dr and Millennium Park which are tourist hubs or commuter transition zones.  
 * Most popular route: Streeter Dr & Grand Ave – Streeter Dr & Grand Ave, suggesting loop rides, common for casual leisure users.
 
-### **Summary of User Differences**
+### _Summary of User Differences_
 
 | Feature | Casual Riders | Annual Members |
 | :---- | :---- | :---- |
@@ -309,11 +309,11 @@ As a reminder, I will quote the business task statement once more here:
 
 **[Back to Top](#table-of-contents)**
 
-# Act
+# **Act**
 
 After reviewing the data visualizations and key insights, I’ve developed the following data-driven recommendations to increase the conversion of casual users into annual members.
 
-### **Recommendations**
+### _Recommendations_
 
 * Promote annual membership benefits just before and during peak casual usage months (spring/early summer).  
 * Target casual riders with campaigns highlighting weekday benefits like convenience, time savings, fuel economy, eco-friendly, exercise/workout benefit.  
