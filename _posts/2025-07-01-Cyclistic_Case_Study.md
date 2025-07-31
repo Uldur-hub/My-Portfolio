@@ -137,7 +137,7 @@ Once the data has been properly downloaded and stored, I will proceed to extract
 3. Established a dataset within the project to generate individual data tables corresponding to each of the uncleaned/original `.CSV` files.
 
 ### **BigQuery SQL Data Cleaning Process** 
-[(Link to all my code used.)](https://docs.google.com/document/u/0/d/1AcUD-SFUxO7wKQHlsEYvP5qFd2e9WqFpkw3Te5Cca4Q/edit)
+[(SQL Cleaning Code)](https://docs.google.com/document/u/0/d/1AcUD-SFUxO7wKQHlsEYvP5qFd2e9WqFpkw3Te5Cca4Q/edit)
 
 The initial step involved merging all individual data tables into a single consolidated table to facilitate efficient data processing. The subsequent cleaning steps included:
 
@@ -176,7 +176,7 @@ Once the data was thoroughly cleaned, I proceeded to enhance the data table with
 
 In the next phase of the analysis, I will examine the data using calculations and descriptive methods to identify trends and relationships. The goal is to generate insights that will support answering our business question “How do annual members and casual riders use Cyclistic bikes differently?” and addressing key objectives. The following steps were followed:
 
-[Link to my SQL Code](https://docs.google.com/document/d/1-tcEb8JbmSFyaE1QDh4bnRElhqegKQOVUf4t22yic1A/edit?usp=sharing)
+[SQL Analysis Code](https://docs.google.com/document/d/1-tcEb8JbmSFyaE1QDh4bnRElhqegKQOVUf4t22yic1A/edit?usp=sharing)
 
 1. **Most popular user type.**
    * Member users are the most popular, forming 64% of the total population.  
@@ -256,6 +256,8 @@ In the next phase of the analysis, I will examine the data using calculations an
 **[Back to Top](#table-of-contents)**
 
 # Share
+
+[Tableau Dashboard](https://public.tableau.com/views/CyclisticUserAnalysis_17496867111250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 After conducting analysis and drawing key insights, I will use Tableau to create clear and impactful data visualizations that effectively communicate my findings and ensure they are accessible and easy to understand. Please click [here](https://public.tableau.com/views/CyclisticUserAnalysis_17496867111250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) to access my interactive dashboard and view the data visualizations.
 
