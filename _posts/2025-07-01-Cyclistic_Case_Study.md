@@ -31,9 +31,34 @@ You are a junior data analyst working on the marketing analyst team at Cyclistic
 - [Deliverables](#deliverables)
 <br>
 
+1. **[Ask Phase (Business Task Statement)](#ask-phase)**
+- [Problem to Solve](#problem-to-solve)
+- [Question to answer](#question-to-answer)
+- [Business Task Statement](#business-task-statement)
+- [Key Stakeholders](#key-stakeholders)
 
+2. **[Prepare Phase (Data Sources)](#prepare-phase)**
+- [Key Focus Areas in the Data Preparation Phase](#key-focus-areas-in-the-data-preparation-phase:)
+- [Data Source](#data-source)
+- [Data Overview and Quality Summary](#data-overview-and-quality-summary)
+- [ROCCC Data Compliance Assessment](#roccc-data-compliance-assessment:)
 
-# Ask Phase (Business Task Statement)
+3. **[Process (Data Cleaning & Manipulation)](#process)**
+- [BigQuery SQL preparation process](#bigquery-sql-preparation-process)
+- [BigQuery SQL Data Cleaning Process](#bigquery-sql-data-cleaning-process)
+- [Preparing Data for Analysis](#preparing-data-for-analysis)
+
+4. [Analysis (SQL)](#analysis)
+
+5. [Share (Data Visualizations)](#share)
+- [Key Insights](#key-insights)
+- [Behavioral Differences](#behavioral-differences)
+- [Summary of User Differences](#summary-of-user-differences)
+
+6. [Act](#act)
+- [Recommendations](#recommendations)
+
+# Ask Phase
 
 In the first phase of the analysis my aim is to fully understand the stakeholders expectations, define the problem to be solved and decide which questions to answer in order to solve the problem.
 
@@ -54,7 +79,7 @@ Identify key usage patterns and behavioral differences between casual riders and
 - **Cyclistic Executive Team**: Responsible for approving the recommended marketing program.  
 - **Lily Moreno**: Director of Marketing, responsible for the development of campaigns and initiatives to promote the bike-share program.
 
-# Prepare Phase (Data Sources)
+# Prepare Phase
 
 ### **Key Focus Areas in the Data Preparation Phase:**
 
@@ -84,7 +109,7 @@ Although Cyclistic is a fictional company, the data—made available by Motivate
 * **Current**: The dataset is up-to-date, covering the year 2024, which aligns with the timeframe of this analysis.  
 * **Cited**: The source of the data has been properly referenced for transparency and traceability in the [Data Source](#data-source) segment.
 
-# Process (Data Cleaning and Manipulation)
+# Process
 
 In this phase, my primary focus will be on refining the dataset to ensure its quality and reliability. This includes identifying and correcting errors or inaccuracies that could compromise the results. Key tasks will include:
 
@@ -101,7 +126,8 @@ Once the data has been properly downloaded and stored, I will proceed to extract
 2. Due to the large file sizes, a new bucket named `2024_divvy_tripdata_uncleaned` was created to store all original `.CSV` files.  
 3. Established a dataset within the project to generate individual data tables corresponding to each of the uncleaned/original `.CSV` files.
 
-### **BigQuery SQL Data Cleaning Process** [(Link to all my code used.)](https://docs.google.com/document/u/0/d/1AcUD-SFUxO7wKQHlsEYvP5qFd2e9WqFpkw3Te5Cca4Q/edit)
+### **BigQuery SQL Data Cleaning Process** 
+[(Link to all my code used.)](https://docs.google.com/document/u/0/d/1AcUD-SFUxO7wKQHlsEYvP5qFd2e9WqFpkw3Te5Cca4Q/edit)
 
 The initial step involved merging all individual data tables into a single consolidated table to facilitate efficient data processing. The subsequent cleaning steps included:
 
@@ -124,7 +150,7 @@ The initial step involved merging all individual data tables into a single conso
 * **Geolocation Validation:**  
   Checked latitude and longitude values to ensure they fall within valid geographical ranges.
 
-### **Preparing Data for Analysis (SQL)** 
+### **Preparing Data for Analysis** 
 
 Once the data was thoroughly cleaned, I proceeded to enhance the data table with additional calculated fields to facilitate analysis.
 
@@ -134,7 +160,7 @@ Once the data was thoroughly cleaned, I proceeded to enhance the data table with
 * Conducted data mapping verification to ensure all fields were accurately aligned with the original datasets and the defined business requirements.  
 * The enhanced data was then saved as a new ready to analyze table.
 
-# Analysis (SQL)
+# Analysis
 
 In the next phase of the analysis, I will examine the data using calculations and descriptive methods to identify trends and relationships. The goal is to generate insights that will support answering our business question “How do annual members and casual riders use Cyclistic bikes differently?” and addressing key objectives. The following steps were followed:
 
@@ -215,7 +241,7 @@ In the next phase of the analysis, I will examine the data using calculations an
         1. 900 W Harrison St \- Central Park Ave & Bloomingdale Ave  
         2. 63rd St Beach \- Dorchester Ave & 49th St
 
-# Share (Data Visualizations)
+# Share
 
 After conducting analysis and drawing key insights, I will use Tableau to create clear and impactful data visualizations that effectively communicate my findings and ensure they are accessible and easy to understand. Please click [here](https://public.tableau.com/views/CyclisticUserAnalysis_17496867111250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) to access my interactive dashboard and view the data visualizations.
 
