@@ -39,10 +39,10 @@ You are a junior data analyst working on the marketing analyst team at Cyclistic
 <br>
 
 2. **[Prepare Phase (Data Sources)](#prepare-phase)**
-- [Key Focus Areas in the Data Preparation Phase](#key-focus-areas-in-the-data-preparation-phase:)
+- [Key Focus Areas in the Data Preparation Phase](#key-focus-areas-in-the-data-preparation-phase)
 - [Data Source](#data-source)
 - [Data Overview and Quality Summary](#data-overview-and-quality-summary)
-- [ROCCC Data Compliance Assessment](#roccc-data-compliance-assessment:)
+- [ROCCC Data Compliance Assessment](#roccc-data-compliance-assessment)
 <br>
 
 3. **[Process (Data Cleaning & Manipulation)](#process)**
@@ -87,7 +87,7 @@ Identify key usage patterns and behavioral differences between casual riders and
 
 # Prepare Phase
 
-### **Key Focus Areas in the Data Preparation Phase:**
+### **Key Focus Areas in the Data Preparation Phase**
 
 * **Identify the Data**: Determine what data is required to support the analysis.  
 * **Locate the Data**: Identify where the data is stored and how it can be accessed.  
@@ -107,7 +107,7 @@ The analysis is based on Cyclistic’s 2024 historical trip data, provided in 12
 
 Although Cyclistic is a fictional company, the data—made available by Motivate International Inc. under an open license—is appropriate for the scope of this case study and supports the business objectives. The data does not present any major or critical issues. Minor issues such as NULL values have been identified and will be addressed during the data cleaning process to ensure integrity and accuracy in analysis.
 
-### **ROCCC Data Compliance Assessment:**
+### **ROCCC Data Compliance Assessment**
 
 * **Reliable**: The dataset originates from Cyclistic’s internal record systems and consists of historical trip data, minimizing bias as it reflects actual user behavior.  
 * **Original**: The data has been directly validated through Cyclistic’s proprietary data collection processes, ensuring authenticity.  
