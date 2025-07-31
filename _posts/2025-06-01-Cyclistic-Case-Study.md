@@ -7,7 +7,7 @@ author:
 
 Welcome to my Google Data Analytics Case Study.
 
-![Bannner](/assets/cyclistic-logo.png)
+![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/cyclistic-logo.png)
 
 <br> 
 
