@@ -163,7 +163,7 @@ The initial step involved merging all individual data tables into a single conso
   Checked latitude and longitude values to ensure they fall within valid geographical ranges.
 
 ### _Preparing Data for Analysis_
-[SQL Preparation Code](https://github.com/Uldur-hub/My-Portfolio/blob/main/Cyclistic_Case_Study_Code/preparing_data_for_analysis_SQL.md)
+[(SQL Preparation Code)](https://github.com/Uldur-hub/My-Portfolio/blob/main/Cyclistic_Case_Study_Code/preparing_data_for_analysis_SQL.md)
 
 Once the data was thoroughly cleaned, I proceeded to enhance the data table with additional calculated fields to facilitate analysis.
 
