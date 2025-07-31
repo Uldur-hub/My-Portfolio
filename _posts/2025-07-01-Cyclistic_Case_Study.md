@@ -36,27 +36,33 @@ You are a junior data analyst working on the marketing analyst team at Cyclistic
 - [Question to answer](#question-to-answer)
 - [Business Task Statement](#business-task-statement)
 - [Key Stakeholders](#key-stakeholders)
+<br>
 
 2. **[Prepare Phase (Data Sources)](#prepare-phase)**
 - [Key Focus Areas in the Data Preparation Phase](#key-focus-areas-in-the-data-preparation-phase:)
 - [Data Source](#data-source)
 - [Data Overview and Quality Summary](#data-overview-and-quality-summary)
 - [ROCCC Data Compliance Assessment](#roccc-data-compliance-assessment:)
+<br>
 
 3. **[Process (Data Cleaning & Manipulation)](#process)**
 - [BigQuery SQL preparation process](#bigquery-sql-preparation-process)
 - [BigQuery SQL Data Cleaning Process](#bigquery-sql-data-cleaning-process)
 - [Preparing Data for Analysis](#preparing-data-for-analysis)
+<br>
 
-4. [Analysis (SQL)](#analysis)
+4. **[Analysis (SQL)](#analysis)**
+<br>
 
-5. [Share (Data Visualizations)](#share)
+5. **[Share (Data Visualizations)](#share)**
 - [Key Insights](#key-insights)
 - [Behavioral Differences](#behavioral-differences)
 - [Summary of User Differences](#summary-of-user-differences)
+<br>
 
-6. [Act](#act)
+6. **[Act](#act)**
 - [Recommendations](#recommendations)
+<br>
 
 # Ask Phase
 
