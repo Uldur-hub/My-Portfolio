@@ -85,6 +85,8 @@ Identify key usage patterns and behavioral differences between casual riders and
 - **Cyclistic Executive Team**: Responsible for approving the recommended marketing program.  
 - **Lily Moreno**: Director of Marketing, responsible for the development of campaigns and initiatives to promote the bike-share program.
 
+**[Back to Top](#table-of-contents)**
+
 # Prepare Phase
 
 ### **Key Focus Areas in the Data Preparation Phase**
@@ -114,6 +116,8 @@ Although Cyclistic is a fictional company, the data—made available by Motivate
 * **Comprehensive**: It includes detailed trip information for both casual riders and annual members throughout the year 2024, with each row representing an individual trip.  
 * **Current**: The dataset is up-to-date, covering the year 2024, which aligns with the timeframe of this analysis.  
 * **Cited**: The source of the data has been properly referenced for transparency and traceability in the [Data Source](#data-source) segment.
+
+**[Back to Top](#table-of-contents)**
 
 # Process
 
@@ -165,6 +169,8 @@ Once the data was thoroughly cleaned, I proceeded to enhance the data table with
 * Introduced a `month` column to identify the month in which each ride began, also utilizing the `FORMAT_DATETIME` function.  
 * Conducted data mapping verification to ensure all fields were accurately aligned with the original datasets and the defined business requirements.  
 * The enhanced data was then saved as a new ready to analyze table.
+
+**[Back to Top](#table-of-contents)**
 
 # Analysis
 
@@ -247,6 +253,8 @@ In the next phase of the analysis, I will examine the data using calculations an
         1. 900 W Harrison St \- Central Park Ave & Bloomingdale Ave  
         2. 63rd St Beach \- Dorchester Ave & 49th St
 
+**[Back to Top](#table-of-contents)**
+
 # Share
 
 After conducting analysis and drawing key insights, I will use Tableau to create clear and impactful data visualizations that effectively communicate my findings and ensure they are accessible and easy to understand. Please click [here](https://public.tableau.com/views/CyclisticUserAnalysis_17496867111250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) to access my interactive dashboard and view the data visualizations.
@@ -295,6 +303,8 @@ As a reminder, I will quote the business task statement once more here:
 | **Time of Day** | Midday & evening | Morning & evening commutes |
 | **Bike Type Preference** | Classic bike | Classic bike |
 
+**[Back to Top](#table-of-contents)**
+
 # Act
 
 After reviewing the data visualizations and key insights, I’ve developed the following data-driven recommendations to increase the conversion of casual users into annual members.
@@ -313,4 +323,4 @@ After reviewing the data visualizations and key insights, I’ve developed the f
 * Introduce Gaming-like features such as badges, streaks, perks to encourage habitual use.  
 * Promote electric bike access as a member-only perk if applicable.
 
-
+**[Back to Top](#table-of-contents)**
