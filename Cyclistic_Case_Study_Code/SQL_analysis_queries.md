@@ -63,6 +63,7 @@ FROM clean_cyclistic_dataset
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/most_pop_user_type.png)
 
+**[Back to Top](#table-of-contents)**
 
 ### Most popular type of bike overall
 `classic_bike` with over 65.5% of preference among users.
@@ -103,6 +104,8 @@ FROM clean_cyclistic_dataset
 --
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/most_pop_bike_overall.png)
+
+**[Back to Top](#table-of-contents)**
 
 ### Most popular type of bike per type of user
 - Member Users: Classic Bike with 66%.
@@ -185,6 +188,8 @@ WHERE member_casual = "casual"
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_most_pop_bike.png)
 
+**[Back to Top](#table-of-contents)**
+
 ### Total rides per month by type of user
 - Member Users:
 ```sql
@@ -231,6 +236,8 @@ ORDER BY
 --
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_total_rides_month.png)
+
+**[Back to Top](#table-of-contents)**
 
 ### Percentage of rides per month by type of user
 - Member Users:
@@ -359,6 +366,8 @@ SELECT
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_percent_rides_month.png)
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_percent_rides_month_2.png)
 
+**[Back to Top](#table-of-contents)**
+
 ### Total rides per weekday by type of user
 - Member Users:
 ```sql
@@ -405,6 +414,8 @@ ORDER BY
 --
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_week_rides.png)
+
+**[Back to Top](#table-of-contents)**
 
 ### Percentage of rides per weekday by type of user
 - Member Users:
@@ -491,6 +502,8 @@ SELECT
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_percent_week_rides.png)
 
+**[Back to Top](#table-of-contents)**
+
 ### Average ride length by type of user
 ```sql
 -- Query to find Avg ride time by type of user.
@@ -508,6 +521,8 @@ GROUP BY
 --
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/avg_ride_length_by_user.png)
+
+**[Back to Top](#table-of-contents)**
 
 ### Average ride length by weekday by type of user
 - Member Users:
@@ -556,6 +571,8 @@ ORDER BY
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_avg_ride_length_weekday.png)
 
+**[Back to Top](#table-of-contents)**
+
 ### Total rides by hour by type of user
 - Member Users:
 ```sql
@@ -603,6 +620,8 @@ ORDER BY
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_hour_rides.png)
 
+**[Back to Top](#table-of-contents)**
+
 ### Most common and least common start station overall
 - Most Common Start Station Overall:
 ```sql
@@ -647,6 +666,8 @@ LIMIT 10
 --
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/least_pop_start_stat_overall.png)
+
+**[Back to Top](#table-of-contents)**
 
 ### Most common and least common start stations by type of user
 - Member Most Common Start Stations:
@@ -749,6 +770,8 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_least_pop_start_stat.png)
 
+**[Back to Top](#table-of-contents)**
+
 ### Most common and least common end station overall
 - Most Common End Station Overall:
 ```sql
@@ -793,6 +816,8 @@ LIMIT 10
 --
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/least_pop_end_stat_overall.png)
+
+**[Back to Top](#table-of-contents)**
 
 ### Most common and least common end station by type of user
 - Member Most Common End Stations:
@@ -895,6 +920,8 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_least_pop_end_stat.png)
 
+**[Back to Top](#table-of-contents)**
+
 ### Most common and least common routes overall
 - Most Common Routes Overall:
 ```sql
@@ -943,6 +970,8 @@ LIMIT 10
 --
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/least_pop_routes_overall.png)
+
+**[Back to Top](#table-of-contents)**
 
 ### Most common and least common routes by type of user
 - Member Most Common Routes:
