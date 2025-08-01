@@ -179,7 +179,7 @@ Once the data was thoroughly cleaned, I proceeded to enhance the data table with
 
 In the next phase of the analysis, I will examine the data using calculations and descriptive methods to identify trends and relationships. The goal is to generate insights that will support answering our business question “How do annual members and casual riders use Cyclistic bikes differently?” and addressing key objectives. The following steps were followed:
 
-[SQL Analysis Code](https://docs.google.com/document/d/1-tcEb8JbmSFyaE1QDh4bnRElhqegKQOVUf4t22yic1A/edit?usp=sharing)
+[SQL Analysis Code](https://github.com/Uldur-hub/My-Portfolio/blob/main/Cyclistic_Case_Study_Code/SQL_analysis_queries.md#table-of-contents)
 
 1. **Most popular user type.**
    * Member users are the most popular, forming 64% of the total population.  
