@@ -4,21 +4,21 @@ In the next phase of the analysis, I will examine the data using calculations an
 ## Table of Contents
 
 - [1. Most Popular User Type](#most-popular-user-type)
-- [2. Most popular type of bike overall]
-- [3. Most popular type of bike per type of user.]
-- [4. Total rides per month by type of user.]
-- [5. Percentage of rides per month by type of user.]
-- [6. Total rides per weekday by type of user.]
-- [7. Percentage of rides per weekday by type of user.]
-- [8. Average ride length by type of user.]
-- [9. Average ride length by weekday by type of user.]
-- [10. Total rides by hour by type of user.]
-- [11. Most common & least common start station overall.]
-- [12. Most common & least common start stations by type of user.]
-- [13. Most common and least common end station overall.]
-- [14. Most common and least common end station by type of user.]
-- [15. Most common and least common routes overall.]
-- [16. Most common and least common routes by type of user.](#most-common-and-least-common-routes-by-type-of-user)
+- [2. Most popular type of bike overall](#most-popular-type-of-bike-overall)
+- [3. Most popular type of bike per type of user](#most-popular-type-of-bike-per-type-of-user)
+- [4. Total rides per month by type of user](#total-rides-per-month-by-type-of-user)
+- [5. Percentage of rides per month by type of user](#percentage-of-rides-per-month-by-type-of-user)
+- [6. Total rides per weekday by type of user](#total-rides-per-weekday-by-type-of-user)
+- [7. Percentage of rides per weekday by type of user](#percentage-of-rides-per-weekday-by-type-of-user)
+- [8. Average ride length by type of user](#average-ride-length-by-type-of-user)
+- [9. Average ride length by weekday by type of user](#average-ride-lenght-by-weekday-by-type-of-user)
+- [10. Total rides by hour by type of user](#total-rides-by-hour-by-type-of-user)
+- [11. Most common & least common start station overall](#most-common-&-least-common-start-station-overall)
+- [12. Most common & least common start stations by type of user](#most-common-&-least-common-start-stations-by-type-of-user)
+- [13. Most common & least common end station overall](#most-common-&-least-common-end-station-overall)
+- [14. Most common & least common end station by type of user](#most-common-&-least-common-end-station-by-type-of-user)
+- [15. Most common & least common routes overall](#most-common-&-least-common-routes-overall)
+- [16. Most common & least common routes by type of user](#most-common-&-least-common-routes-by-type-of-user)
 
 ## Queries
 
@@ -64,7 +64,7 @@ FROM clean_cyclistic_dataset
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/most_pop_user_type.png)
 
 
-### 2. Most popular type of bike overall
+### Most popular type of bike overall
 `classic_bike` with over 65.5% of preference among users.
 ```sql
 -- Query to find the most popular bike type with count and percentage.
@@ -104,7 +104,7 @@ FROM clean_cyclistic_dataset
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/most_pop_bike_overall.png)
 
-### 3. Most popular type of bike per type of user.
+### Most popular type of bike per type of user
 - Member Users: Classic Bike with 66%.
 ```sql
 -- Query to find the most popular bike type between member users with count and percentage.
@@ -145,7 +145,7 @@ WHERE member_casual = "member"
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/members_most_pop_bike.png)
 
-- Casual Users: Classic Bike with 64.7%.
+- Casual Users: Classic Bike with 64.7%
 ```sql
 -- Query to find the most popular bike type between casual users with count and percentage.
 
@@ -185,7 +185,7 @@ WHERE member_casual = "casual"
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_most_pop_bike.png)
 
-### 4. Total rides per month by type of user.
+### Total rides per month by type of user
 - Member Users:
 ```sql
 -- Query to find the total rides per month by member users.
@@ -232,7 +232,7 @@ ORDER BY
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_total_rides_month.png)
 
-### 5. Percentage of rides per month by type of user.
+### Percentage of rides per month by type of user
 - Member Users:
 ```sql
 -- Query to find the percent of member user rides per month.
@@ -359,7 +359,7 @@ SELECT
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_percent_rides_month.png)
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_percent_rides_month_2.png)
 
-### 6. Total rides per weekday by type of user.
+### Total rides per weekday by type of user
 - Member Users:
 ```sql
 -- Query to find the total rides per weekday by member users.
@@ -406,7 +406,7 @@ ORDER BY
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_week_rides.png)
 
-### 7. Percentage of rides per weekday by type of user.
+### Percentage of rides per weekday by type of user
 - Member Users:
 ```sql
 -- Query to find the percent of member user rides per weekday.
@@ -491,7 +491,7 @@ SELECT
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_percent_week_rides.png)
 
-### 8. Average ride length by type of user.
+### Average ride length by type of user
 ```sql
 -- Query to find Avg ride time by type of user.
 
@@ -509,7 +509,7 @@ GROUP BY
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/avg_ride_length_by_user.png)
 
-### 9. Average ride length by weekday by type of user.
+### Average ride length by weekday by type of user
 - Member Users:
 ```sql
 -- Query to find Avg ride time by weekday by member users.
@@ -556,7 +556,7 @@ ORDER BY
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_avg_ride_length_weekday.png)
 
-### 10. Total rides by hour by type of user.
+### Total rides by hour by type of user
 - Member Users:
 ```sql
 -- Query to find the total rides per hour by member users.
@@ -603,7 +603,7 @@ ORDER BY
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_hour_rides.png)
 
-### 11. Most common & least common start station overall.
+### Most common & least common start station overall
 - Most Common Start Station Overall:
 ```sql
 -- Query to find the most common start stations overall.
@@ -648,7 +648,7 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/least_pop_start_stat_overall.png)
 
-### 12. Most common & least common start stations by type of user.
+### Most common & least common start stations by type of user
 - Member Most Common Start Stations:
 ```sql
 -- Query to find the most common start stations by member users.
@@ -749,7 +749,7 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_least_pop_start_stat.png)
 
-### 13. Most common and least common end station overall.
+### Most common & least common end station overall
 - Most Common End Station Overall:
 ```sql
 -- Query to find the most common end stations overall.
@@ -794,7 +794,7 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/least_pop_end_stat_overall.png)
 
-### 14. Most common and least common end station by type of user.
+### Most common & least common end station by type of user
 - Member Most Common End Stations:
 ```sql
 -- Query to find the most common end stations by member users.
@@ -895,7 +895,7 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_least_pop_end_stat.png)
 
-### 15. Most common and least common routes overall.
+### Most common & least common routes overall
 - Most Common Routes Overall:
 ```sql
 -- Query to find the most common routes overall.
@@ -944,7 +944,7 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/least_pop_routes_overall.png)
 
-### Most common and least common routes by type of user
+### Most common & least common routes by type of user
 - Member Most Common Routes:
 ```sql
 -- Query to find the most common routes by member users.
