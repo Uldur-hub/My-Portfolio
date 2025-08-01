@@ -260,13 +260,16 @@ In the next phase of the analysis, I will examine the data using calculations an
 
 # **Share**
 
-[Tableau Dashboard](https://public.tableau.com/views/CyclisticUserAnalysis_17496867111250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**[Tableau Dashboard](https://public.tableau.com/views/CyclisticUserAnalysis_17496867111250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 After conducting analysis and drawing key insights, I will use Tableau to create clear and impactful data visualizations that effectively communicate my findings and ensure they are accessible and easy to understand. Please click [here](https://public.tableau.com/views/CyclisticUserAnalysis_17496867111250/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) to access my interactive dashboard and view the data visualizations.
 
 As a reminder, I will quote the business task statement once more here:
 
 *“Identify key usage patterns and behavioral differences between casual riders and annual members of Cyclistic bike-share services, in order to develop targeted marketing strategies that effectively convert more casual riders into annual members, thereby increasing overall revenue and customer retention.”*
+
+![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/dashboard1.png)
+![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/dashboard2.png)
 
 ### _Key Insights_
 
