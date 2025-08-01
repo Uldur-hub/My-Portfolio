@@ -13,12 +13,12 @@ In the next phase of the analysis, I will examine the data using calculations an
 - [8. Average ride length by type of user](#average-ride-length-by-type-of-user)
 - [9. Average ride length by weekday by type of user](#average-ride-lenght-by-weekday-by-type-of-user)
 - [10. Total rides by hour by type of user](#total-rides-by-hour-by-type-of-user)
-- [11. Most common & least common start station overall](#most-common-&-least-common-start-station-overall)
-- [12. Most common & least common start stations by type of user](#most-common-&-least-common-start-stations-by-type-of-user)
-- [13. Most common & least common end station overall](#most-common-&-least-common-end-station-overall)
-- [14. Most common & least common end station by type of user](#most-common-&-least-common-end-station-by-type-of-user)
-- [15. Most common & least common routes overall](#most-common-&-least-common-routes-overall)
-- [16. Most common & least common routes by type of user](#most-common-&-least-common-routes-by-type-of-user)
+- [11. Most common & least common start station overall](#most-common-and-least-common-start-station-overall)
+- [12. Most common & least common start stations by type of user](#most-common-and-least-common-start-stations-by-type-of-user)
+- [13. Most common & least common end station overall](#most-common-and-least-common-end-station-overall)
+- [14. Most common & least common end station by type of user](#most-common-and-least-common-end-station-by-type-of-user)
+- [15. Most common & least common routes overall](#most-common-and-least-common-routes-overall)
+- [16. Most common & least common routes by type of user](#most-common-and-least-common-routes-by-type-of-user)
 
 ## Queries
 
@@ -603,7 +603,7 @@ ORDER BY
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_hour_rides.png)
 
-### Most common & least common start station overall
+### Most common and least common start station overall
 - Most Common Start Station Overall:
 ```sql
 -- Query to find the most common start stations overall.
@@ -648,7 +648,7 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/least_pop_start_stat_overall.png)
 
-### Most common & least common start stations by type of user
+### Most common and least common start stations by type of user
 - Member Most Common Start Stations:
 ```sql
 -- Query to find the most common start stations by member users.
@@ -749,7 +749,7 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_least_pop_start_stat.png)
 
-### Most common & least common end station overall
+### Most common and least common end station overall
 - Most Common End Station Overall:
 ```sql
 -- Query to find the most common end stations overall.
@@ -794,7 +794,7 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/least_pop_end_stat_overall.png)
 
-### Most common & least common end station by type of user
+### Most common and least common end station by type of user
 - Member Most Common End Stations:
 ```sql
 -- Query to find the most common end stations by member users.
@@ -895,7 +895,7 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/casual_least_pop_end_stat.png)
 
-### Most common & least common routes overall
+### Most common and least common routes overall
 - Most Common Routes Overall:
 ```sql
 -- Query to find the most common routes overall.
@@ -944,7 +944,7 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/least_pop_routes_overall.png)
 
-### Most common & least common routes by type of user
+### Most common and least common routes by type of user
 - Member Most Common Routes:
 ```sql
 -- Query to find the most common routes by member users.
