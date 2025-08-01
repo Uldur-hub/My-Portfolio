@@ -3,7 +3,7 @@ In the next phase of the analysis, I will examine the data using calculations an
 
 ## Table of Contents
 
-- [1. Most Popular User Type](#1.-most-popular-user-type)
+- [1. Most Popular User Type](#most-popular-user-type)
 - [2. Most popular type of bike overall]
 - [3. Most popular type of bike per type of user.]
 - [4. Total rides per month by type of user.]
@@ -18,11 +18,11 @@ In the next phase of the analysis, I will examine the data using calculations an
 - [13. Most common and least common end station overall.]
 - [14. Most common and least common end station by type of user.]
 - [15. Most common and least common routes overall.]
-- [16. Most common and least common routes by type of user.](#16.-most-common-and-least-common-routes-by-type-of-user.)
+- [16. Most common and least common routes by type of user.](#most-common-and-least-common-routes-by-type-of-user)
 
 ## Queries
 
-### 1. Most Popular User Type
+### Most Popular User Type
 
 The most popular type of user is "Member" type covering 64% of the population.
 ```sql
@@ -944,7 +944,7 @@ LIMIT 10
 ```
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/Cyclistic_SQL_Queries/least_pop_routes_overall.png)
 
-### 16. Most common and least common routes by type of user.
+### Most common and least common routes by type of user
 - Member Most Common Routes:
 ```sql
 -- Query to find the most common routes by member users.
