@@ -139,7 +139,7 @@ Once the data has been properly downloaded and stored, I will proceed to extract
 3. Established a dataset within the project to generate individual data tables corresponding to each of the uncleaned/original `.CSV` files.
 
 ### _BigQuery SQL Data Cleaning Process_ 
-[(SQL Cleaning Code)](https://github.com/Uldur-hub/Cyclistic-Case-Study-Code-Snippets/blob/main/bigquery_SQL_cleaning_process.md)
+**[(SQL Cleaning Code)](https://github.com/Uldur-hub/Cyclistic-Case-Study-Code-Snippets/blob/main/bigquery_SQL_cleaning_process.md)**
 
 The initial step involved merging all individual data tables into a single consolidated table to facilitate efficient data processing. The subsequent cleaning steps included:
 
@@ -163,7 +163,7 @@ The initial step involved merging all individual data tables into a single conso
   Checked latitude and longitude values to ensure they fall within valid geographical ranges.
 
 ### _Preparing Data for Analysis_
-[(SQL Preparation Code)](https://github.com/Uldur-hub/Cyclistic-Case-Study-Code-Snippets/blob/main/preparing_data_for_analysis_SQL.md)
+**[(SQL Preparation Code)](https://github.com/Uldur-hub/Cyclistic-Case-Study-Code-Snippets/blob/main/preparing_data_for_analysis_SQL.md)**
 
 Once the data was thoroughly cleaned, I proceeded to enhance the data table with additional calculated fields to facilitate analysis.
 
@@ -179,7 +179,7 @@ Once the data was thoroughly cleaned, I proceeded to enhance the data table with
 
 In the next phase of the analysis, I will examine the data using calculations and descriptive methods to identify trends and relationships. The goal is to generate insights that will support answering our business question “How do annual members and casual riders use Cyclistic bikes differently?” and addressing key objectives. The following steps were followed:
 
-[SQL Analysis Code](https://github.com/Uldur-hub/Cyclistic-Case-Study-Code-Snippets/blob/main/SQL_analysis_queries.md)
+**[(SQL Analysis Code)](https://github.com/Uldur-hub/Cyclistic-Case-Study-Code-Snippets/blob/main/SQL_analysis_queries.md)**
 
 1. **Most popular user type.**
    * Member users are the most popular, forming 64% of the total population.  
