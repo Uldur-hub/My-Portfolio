@@ -3,11 +3,27 @@ In the next phase of the analysis, I will examine the data using calculations an
 
 ## Table of Contents
 
-WORK IN PROGRESS
+- [1. Most Popular User Type](#1.-most-popular-user-type)
+- [2. Most popular type of bike overall]
+- [3. Most popular type of bike per type of user.]
+- [4. Total rides per month by type of user.]
+- [5. Percentage of rides per month by type of user.]
+- [6. Total rides per weekday by type of user.]
+- [7. Percentage of rides per weekday by type of user.]
+- [8. Average ride length by type of user.]
+- [9. Average ride length by weekday by type of user.]
+- [10. Total rides by hour by type of user.]
+- [11. Most common & least common start station overall.]
+- [12. Most common & least common start stations by type of user.]
+- [13. Most common and least common end station overall.]
+- [14. Most common and least common end station by type of user.]
+- [15. Most common and least common routes overall.]
+- [16. Most common and least common routes by type of user.](#16.-most-common-and-least-common-routes-by-type-of-user.)
 
 ## Queries
 
-### 1. Most Popular User Type <br>
+### 1. Most Popular User Type
+
 The most popular type of user is "Member" type covering 64% of the population.
 ```sql
 -- Query to find the most popular user type with count and percentage.
