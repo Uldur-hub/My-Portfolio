@@ -7,7 +7,8 @@ author:
 
 ![Banner](https://raw.githubusercontent.com/Uldur-hub/My-Portfolio/main/assets/cyclistic.jpg)
 
-**[Kaggle Version](https://www.kaggle.com/code/hugoesco/cyclistic-data-analyis-case-study)**
+**[Kaggle Version](https://www.kaggle.com/code/hugoesco/cyclistic-data-analyis-case-study)** - 
+**[Google Data Analytics Certificate](https://www.coursera.org/account/accomplishments/professional-cert/CHRTJNOU7I7G?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof)**
 
 # **Introduction**
 
