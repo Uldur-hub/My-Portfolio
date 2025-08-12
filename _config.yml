@@ -36,6 +36,7 @@ plugins:
 # Minima social links
 github_username: Uldur-hub
 linkedin_username: Uldur
+kaggle_username: hugoesco
 #rss: rss
 # Uncomment the following setting if you wish to disable deprecation warnings
 #   from newer versions of sass converter. Adapt as required.
@@ -94,5 +95,6 @@ minima:
 #     list. Set below key to `true` to not have the link to feed rendered as
 #     part of social-links list.
 #   hide_site_feed_link: false
+
 
 
