@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-## About Me
-
 Hi, I’m **Hugo**, a curious mind with a passion for learning, problem-solving, and creating meaningful connections between ideas, people, and opportunities.  
 
 I’ve worn many hats throughout my career, from working on **data analysis** to exploring **user engagement & management strategies** and **Customer Success Management**. My journey has taught me that adaptability, curiosity, and a willingness to dig deeper are just as important as technical skills.  
