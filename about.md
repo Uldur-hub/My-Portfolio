@@ -16,3 +16,8 @@ I believe in working with integrity, paying attention to the details, and focusi
 
 ### Beyond Work  
 Outside of my professional life, you can find me exploring **Fantasy Role-Playing Games** like Dungeons & Dragons, reading **Philosophy** or **Classical Literature**, **Golfing**, **Mountain Hiking** and learning about different cultures through travel.
+
+### Socials
+**[GitHub](https://github.com/Uldur-hub)** - 
+**[Kaggle](https://www.kaggle.com/hugoesco)** - 
+**[LinkedIn](www.linkedin.com/in/uldur)**
